@@ -93,3 +93,47 @@
 #     X   X
 #    X     X
 #   XXXXXXXXX
+
+
+# # height = int(input("Podaj wysokosc: "))
+
+# # for i in range(1, height+1):
+# #     for j in range(1, i+1):
+# #         print (j, end=" ")
+# #     print()
+
+# 1
+# 1 2
+# 1 2 3
+# 1 2 3 4
+# 1 2 3 4 5
+
+# height = int(input("Podaj wysokosc: "))
+
+# for i in range(1, height+1):
+#     x = i
+#     for j in range(1, i+1):
+#         print (i, end=" ")
+#         i = i+x
+#     print()
+
+# 1
+# 2 4
+# 3 6 9
+# 4 8 12 16
+# 5 10 15 20 25
+
+# height = int(input("Podaj wysokosc: "))
+
+# for i in range(1, height+1):
+#     for j in range(i):
+#         print (3*(i-1+j), end=" ")
+#     print()
+
+# 0
+# 3 6
+# 6 9 12
+# 9 12 15 18
+# 12 15 18 21 24
+
+# WYKONAC JESZCZE RAZ
