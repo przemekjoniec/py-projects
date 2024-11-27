@@ -137,3 +137,125 @@
 # 12 15 18 21 24
 
 # WYKONAC JESZCZE RAZ
+
+
+
+# ile = int(input("Podaj ile: "))
+
+# for i in range(ile):
+#     if i < ile-1:
+#         print(i * 3, end=", ")
+#     else:
+#         print(i * 3, end=" ")
+
+# 0, 3, 6, 9, 12
+
+
+
+
+# ile = int(input("Podaj ile: "))
+
+# suma = 0 
+
+# for i in range(ile):
+#     liczba_parz = 2 * i
+#     suma += liczba_parz
+
+# print(suma)
+
+
+
+
+# ile = int(input("Podaj ile: "))
+
+# suma = 0 
+
+# for i in range(ile):
+#     liczba_nieparz = 2 * i + 1
+#     suma += liczba_nieparz
+
+# print(suma)
+
+
+
+# ile = int(input("Podaj ile: "))
+
+# suma = 0 
+
+# for i in range(ile):
+#     liczba = 7 * i
+#     suma += liczba
+
+# print(suma)
+
+
+
+# ile = int(input("Podaj cyfre:"))
+
+# suma = 0
+# liczba = 0
+# znalezione = 0
+
+# while znalezione < ile:
+#     if liczba % 10 in{1,2,7}:
+#         suma += liczba
+#         znalezione += 1
+#     liczba += 1
+
+# print(suma)
+
+
+
+# ile = int(input("Podaj cyfre:"))
+
+# suma = 0
+# liczba = 0
+# znalezione = []
+
+# while len(znalezione) < ile:
+#     if liczba % 100 in{31,62,17}:
+#         suma += liczba
+#         znalezione.append(liczba)
+#     liczba += 1
+
+# print(suma)
+# print(znalezione)
+
+
+
+# n = int(input("Podaj liczbę n: "))
+
+# def suma_cyfr(x):
+#     return sum(int(cyfra) for cyfra in str(x))
+
+# suma = 0
+# liczba = 1
+# znalezione = 0
+
+# while znalezione < n:
+#     if suma_cyfr(liczba) == 10:
+#         suma += liczba
+#         znalezione += 1
+#     liczba += 1
+
+# print("Suma wynosi:", suma)
+
+
+
+# n = int(input("Podaj liczbę n: "))
+
+# def suma_cyfr(x):
+#     return sum(int(cyfra) for cyfra in str(x))
+
+# suma = 0
+# liczba = 1
+# znalezione = []
+
+# while len(znalezione) < n:
+#     if suma_cyfr(liczba)%2 == 0:
+#         suma += liczba
+#         znalezione.append(liczba)
+#     liczba += 1
+
+# print("Suma wynosi:", suma)
+# print(znalezione)
