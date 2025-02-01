@@ -42,3 +42,4 @@ if pin_wpisany != pin_uzytkownika:
         proby -= 1
         if proby == 0:
             break
+    
