@@ -58,19 +58,29 @@ while True:
         rok = input("Podaj rok wydania: ")
         gry.append({'name': nazwa, 'genre': gatunek, 'rating': ocena, 'year': rok})
     elif opcja == "6":
-        print("test")
+        print("nie chce mi sie")
     elif opcja == "7":
         nazwa = input("Podaj nazwe: ")
         for element in gry:
             if nazwa == element['name']:
                 gry.remove(element)
     elif opcja == "8":
-        print("test")
+        nazwa = input("Podaj nazwe: ")
+        ocena = int(input("Podaj ocene: "))
+        for element in gry:
+            if nazwa == element['name']:
+                element['rating'] = ocena
     elif opcja == "9":
-        print("test")
+        nazwa = input("Podaj nazwe: ")
+        for element in gry:
+            if nazwa == element['name']:
+                print("Nazwa: " + element['name'])
+                print("Gatunek: " + element['genre'])
+                print("Ocena: " + str(element['rating']))
     elif opcja == "10":
-        print("test")
+        plik = open('baza.txt', 'w')
+        for element in gry:
+            plik.write('Nazwa: ' + str(element['name']) + ' Gatunek: ' + str(element['genre']) + ' Ocena: ' + str(element['rating']) + ' Rok wydania: ' + str(element['year']) + '\n')
+        plik.close()
     elif opcja == "11":
-        print("test")
-    elif opcja == "12":
         break
